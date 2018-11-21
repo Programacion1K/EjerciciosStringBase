@@ -1,5 +1,6 @@
 public class Espejo {
     public static String espejoCadena(String cadena) {
-        return null;
+
+        return cadena+Inversa.inversaCadena(cadena).substring(1);
     }
 }
